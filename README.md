@@ -36,7 +36,7 @@ Elastic IP (static)
 
 ---
 
-## Level C — EC2 Setup + Docker Installation
+## EC2 Setup + Docker Installation
 
 ### 1 — Launch EC2 Instance
 
@@ -117,7 +117,7 @@ Docker installed and running as a system service.
 
 ---
 
-## Level B — ELK Stack Deployment (Manual Docker Run)
+## ELK Stack Deployment (Manual Docker Run)
 
 ### 7 — Deploy ELK Container
 
@@ -144,7 +144,7 @@ Kibana accessible at `http://<ELASTIC_IP>:5601` confirming the full ELK stack is
 
 ---
 
-## Level A — Docker Compose + Logstash Ingestion
+## Docker Compose + Logstash Ingestion
 
 ### 9 — Deploy via Docker Compose
 
@@ -189,7 +189,7 @@ Message visible in **Kibana → Discover**.
 
 ---
 
-## Level A+ — Index Pattern and Discover
+## Index Pattern and Discover
 
 ### 12 — Create Index Pattern
 
