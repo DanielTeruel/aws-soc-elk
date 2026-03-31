@@ -27,11 +27,15 @@ Deployment of a **Security Operations Center (SOC)** environment using the ELK S
 
 ![Architecture](./screenshots/architecture.png)
 
+The SOC environment is built on a single AWS EC2 instance running the full ELK stack inside a Docker container. All external traffic passes through a Security Group acting as a firewall — only the required ports are exposed and SSH access is restricted to the admin IP. The ELK container exposes three services: Elasticsearch as the data store, Logstash as the ingestion pipeline, and Kibana as the visualization and analysis frontend.
+
 ---
 
 ## Infrastructure
 
 ![Infrastructure](./screenshots/infra.png)
+
+The infrastructure is intentionally minimal and cost-effective — a single `t3.large` instance provides enough CPU and RAM to run all three ELK services simultaneously. An Elastic IP ensures the public address remains stable across reboots. The Security Group enforces port-level access control, restricting each service to authorized sources only. Docker acts as the container runtime, isolating the ELK stack from the host OS and enabling a reproducible deployment via a single `docker run` or `docker-compose up` command.
 
 | Component | Value |
 |---|---|
