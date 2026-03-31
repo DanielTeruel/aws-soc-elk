@@ -25,9 +25,9 @@ Deployment of a **Security Operations Center (SOC)** environment using the ELK S
 
 ## Architecture
 
-![Infrastructure](./infra.png)
+![Infrastructure](./screenshots/infra.png)
 
-![Architecture](./architecture.png)
+![Architecture](./screenshots/architecture.png)
 ```
 Internet
     │
