@@ -1,4 +1,5 @@
 ![EC2 Setup Banner](../screenshots/01.png)
+
 # 01 — EC2 Setup + Docker Installation
 
 ## Overview
