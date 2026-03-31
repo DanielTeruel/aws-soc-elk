@@ -1,3 +1,5 @@
+![ELK Compose Banner](../screenshots/03.png)
+
 # 03 — Docker Compose + Logstash Ingestion
 
 ## Overview
