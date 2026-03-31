@@ -1,3 +1,5 @@
+![ELK Docker Banner](../screenshots/02.png)
+
 # 02 — ELK Stack Deployment via Docker
 
 ## Overview
