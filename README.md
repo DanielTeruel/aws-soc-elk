@@ -1,4 +1,4 @@
-![SOC Lab Banner](./banner.png)
+![SOC Lab Banner](./screenshots/banner.png)
 
 # SOC Lab — ELK Stack on AWS
 
