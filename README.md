@@ -1,4 +1,4 @@
-![SOC Lab Banner](./banner.png)
+![SOC Lab Banner](./screenshots/banner.png)
 
 # SOC Lab — ELK Stack on AWS
 
@@ -25,34 +25,13 @@ Deployment of a **Security Operations Center (SOC)** environment using the ELK S
 
 ## Architecture
 
-![Infrastructure](./infra.png)
+![Architecture](./screenshots/architecture.png)
 
-![Architecture](./architecture.png)
-```
-Internet
-    │
-    ├── SSH     :22   (restricted to admin IP)
-    ├── Kibana  :5601
-    ├── Elastic :9200
-    └── Logstash:5044
-         │
-         ▼
-┌─────────────────────────────────┐
-│  EC2 t3.large · Amazon Linux    │
-│  Elastic IP (static)            │
-│                                 │
-│  ┌─────────────────────────┐    │
-│  │  Docker                 │    │
-│  │  sebp/elk:7.16.3        │    │
-│  │                         │    │
-│  │  Elasticsearch  :9200   │    │
-│  │  Logstash       :5044   │    │
-│  │  Kibana         :5601   │    │
-│  └─────────────────────────┘    │
-└─────────────────────────────────┘
-```
+---
 
 ## Infrastructure
+
+![Infrastructure](./screenshots/infra.png)
 
 | Component | Value |
 |---|---|
@@ -63,6 +42,8 @@ Internet
 | IP | Elastic IP (static) |
 | ELK Image | sebp/elk:7.16.3 |
 | Deployment | Docker · Docker Compose |
+
+---
 
 ## What This Demonstrates
 
