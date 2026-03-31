@@ -1,3 +1,5 @@
+![Kibana Discover Banner](../screenshots/04.png)
+
 # 04 — Kibana Index Pattern + Discover
 
 ## Overview
